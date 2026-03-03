@@ -80,3 +80,12 @@ We aimed to reproduce conditions where the broker might fall behind, delay messa
 - Multiple slow consumers for more realistic message backlog scenarios
 - Automated capture of **producer send blocking time** along with latency metrics
 - Integration with monitoring tools (Prometheus/Grafana) to visualize stress over time
+
+## Build / Run
+
+Compile
+`cd ~/CODE/java/amq-test`
+`mvn clean compile`
+
+Run
+- `mvn exec:java -Dexec.mainClass=com.example.ActiveMQStressTest`
