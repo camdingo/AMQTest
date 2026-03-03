@@ -84,8 +84,8 @@ We aimed to reproduce conditions where the broker might fall behind, delay messa
 ## Build / Run
 
 Compile
-`cd ~/CODE/java/amq-test`
-`mvn clean compile`
+- `cd ~/CODE/java/amq-test`
+- `mvn clean compile`
 
 Run
 - `mvn exec:java -Dexec.mainClass=com.example.ActiveMQStressTest`
